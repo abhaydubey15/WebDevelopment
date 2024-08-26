@@ -1,0 +1,38 @@
+/* h1
+{
+    color: aqua;
+    background-color: black;
+}
+h2
+{
+    color: brown;
+    background-color: wheat;
+}
+
+p{
+    color: red ;
+    background-color: blueviolet;
+}
+button{
+    color: gold;
+} */
+
+
+h3
+{
+    /* color: maroon; */
+    /* color: rgb(168, 50, 160); */
+    /* color: #0000ff; */
+ /* color: #ffff00; */
+ /* color: #b8cfc3; */
+ color: rgb(255,255, 0);
+}
+.para
+{
+    color: white;
+    background-color: black;
+}
+.submit{
+color: white;
+background-color: blue;
+}

@@ -1,0 +1,32 @@
+#outer
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+#inner
+{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+.class1
+{
+    
+    background-color: red;
+    
+}
+.class2
+{
+   
+    background-color: yellow;
+   
+}
+.class3
+{
+   
+    background-color: green;
+   
+}

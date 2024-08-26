@@ -1,0 +1,75 @@
+div{
+    height: 200px ;
+    width: 400px;
+     /* background-color: pink; 
+     border-width: 5px;
+    border-style:solid;
+    border-color: aqua;  */
+      border: 5px solid aqua; 
+     /* border-left-color: green;
+    border-left-style: dotted;
+    border-right-color: red;  */
+    /* border-left: 7px solid rgb(50, 244, 11); */
+    /* border-top-color: aqua; */ 
+    /* border-top:5px dashed blue  */
+    /* border-top: 6px solid violet; */
+     
+    border-radius: 10px; 
+    /* border-top-right-radius: 30px; */
+    /* border-radius: 10px; */
+    /* border-top-right-radius: 50px; */
+    /* padding: auto; */
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    margin: 10px;
+
+    /* Margin Bottom */
+  /* margin-left: 20px; */
+    /* margin-bottom: 20px; */
+    /* Margin all the 4 sides*/
+        /* margin-top:20px  ; */
+    /*  For  top&bottom | left &right */
+    /* margin: 20px 40px; */
+
+    /* for top |left&right| bottom */
+    /* margin: 20px 40px 20px; */
+    /*  For all of the 4 directions */
+    /* margin:  20px  40px  20px 40px; */
+
+
+}  
+
+h1
+{
+     /* border-width: 2px;
+    border-style: dashed;
+    border-color: green;
+     */
+
+     border: 2px dashed green;
+     margin: 0;
+}
+
+
+
+
+
+button{
+  border: 2px solid black;
+  /* border-radius: 10px;   */
+/* padding-left: 20px; 
+padding-right: 20px; */
+/* padding: 25px;       Padding in all four sides */
+ /* padding: 10px 25px;      /   Padding in top&bottom   &&left & right  bottom */
+ /* padding: 20px 10px 20px ;          Padding in top & |left &right |  bottom */
+ /* Padding in clock wise  top right bottom left */
+
+
+ padding: 20px 10px 20px  10px;  
+ /* padding: 0 30px 0 30px; */
+/* background-color: yellow; */
+
+}

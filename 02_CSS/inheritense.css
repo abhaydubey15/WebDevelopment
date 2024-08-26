@@ -1,0 +1,17 @@
+div{
+    background-color: yellow;
+}
+form{
+    background-color: red; 
+}
+input{
+    background-color: inherit;
+}
+/* p::first-line{
+    color: pink;
+} */
+
+button:hover
+{
+    background-color: red;
+}

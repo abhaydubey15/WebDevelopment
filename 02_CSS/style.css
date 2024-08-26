@@ -1,0 +1,186 @@
+h3{
+    background-color: antiquewhite !important;
+}
+
+*{
+    font-family: 'Times New Roman';
+   
+}
+/* h3,h1 
+{
+    color: purple;
+} */
+h1,h3
+{
+    color: #b92b27
+}
+ 
+#login{
+    background-color: white;
+
+} 
+#signup
+{
+    background-color:#b92b27;
+    color: white;
+
+}
+
+/*  Class  selector  */
+/* .upvote{
+    background-color: green;
+
+} */
+.answer
+{
+    background-color: #b92b27 ;
+}
+
+
+/* #myid{
+    color: green    ;
+} */
+  
+/* 
+div[id="myid"]{
+    color: green    ;
+} */
+
+/* Decendent selector */
+
+  .post a{
+    color: purple;
+    background-color: yellow;;
+}
+/* 4 level of decendants nav>ul>li >a */
+/* nav ul li a{
+    color: aqua;
+} */
+nav  a{
+    color: aqua;
+}
+
+
+/* Sibling Combination */
+
+p+h3{
+    text-decoration: underline;
+}
+
+footer p a{
+    color: aqua;
+    background-color: white ;
+    text-decoration: none;
+}
+
+.upvote+button{
+    background-color: cornflowerblue;
+    color: darkblue;
+} 
+
+/*
+Child Combinator  
+ */
+
+ div>input
+ {
+    background-color: burlywood ;
+ }
+
+ input[type="text"]
+ {
+    color: red;
+ }
+ input[type="password"]
+ {
+    color: green;
+ }
+ input[type]
+ {
+    background-color: pink;
+ }
+ /* #h1tag
+ {
+    background-color: yellowgreen;
+ }
+ .h1tag
+ { background-color: red;
+
+
+ } */
+
+ /* Question Soluton  */
+ div .greetdiv .greet {
+    color: green;
+}
+
+ .greetdiv p .greet {
+    color: blue;
+}
+
+  
+  .greetdiv .greet
+  {
+    color: red;
+  }
+
+  
+/* hover  */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover
+{
+    text-decoration: none;
+}
+
+/* .greetdiv:hover
+{
+    background-color: yellow;
+} */
+
+button:active
+{
+    background-color: hotpink;
+    color: black ;
+}
+
+/* p:active
+{
+    font: bold;
+    color: red;
+} */
+
+input[type="radio"]:checked+label
+{
+    color: red;
+    font-weight: bold;
+
+}
+div:nth-of-type(2 )
+{
+    background-color: blanchedalmond;
+}
+h1::first-letter
+{
+    color: black;
+}
+p::first-line
+{
+    color: red;
+}
+ 
+p::selection
+{
+    background-color: rgb(141, 141, 129);
+}
+h3
+{
+    background-color: yellow;
+
+}
+h3
+{
+     background-color: blue;
+}
